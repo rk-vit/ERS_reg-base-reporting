@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'ERS - Regional Language Based Emergency Reporting and Dispatch System',
+  description: 'This is an emergency reporting and dispatch system that supports regional languages.'
 }
 
 export default function RootLayout({
